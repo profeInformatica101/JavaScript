@@ -1,4 +1,6 @@
     // Crea una lista de números pares del 2 al 20 utilizando un bucle while.
+
+    // Crea una lista de números impares del 1 al 19 utilizando un bucle for.
     
     // Crea una lista de comida y utiliza un array literal para agregar varios platos a la lista.
     
