@@ -1,0 +1,36 @@
+/** Muestra la ficha de Luke Skywalker*/
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fetch API Example</title>
+    </head>
+    <body>
+        <img src="https://cdn.pixabay.com/photo/2022/05/24/07/39/lego-7217829_960_720.jpg">
+         <script>
+            //Alternativa: https://pokeapi.co/
+            fetch('https://swapi.dev/api/people/1/')
+  .then(response => response.json())
+  .then(data => {
+    // Crea un elemento h1
+    var h1 = document.createElement("h1");
+    // Establece el texto del h1
+    h1.innerHTML = data.name;
+    // Agrega el h1 al documento
+    document.body.appendChild(h1);
+
+    // Crea un elemento p
+    var p = document.createElement("p");
+    // Establece el texto del p
+    p.innerHTML = "Altura: " + data.height + "cm <br> peso: " + data.mass + "kg <br> color de cabello: " + data.hair_color + "<br> color de piel: " + data.skin_color + "<br> color de ojos: " + data.eye_color;
+    // Agrega el p al documento
+    document.body.appendChild(p);
+  })
+  .catch(error => {
+    console.log('Error:', error);
+  });
+        </script>
+
+    </body>
+
+</html>
