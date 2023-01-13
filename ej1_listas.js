@@ -2,11 +2,11 @@
 
     // Crea una lista de números impares del 1 al 19 utilizando un bucle for.
     
-    // Crea una lista de comida y utiliza un array literal para agregar varios platos a la lista.
+    // Crea una lista de comida.
     
     // Agrega un elemento al principio de la lista de comida que creaste en el ejercicio anterior.
     
-    // Accede al segundo elemento de la lista de comida y cambia su valor por un plato diferente.
+    // Accede al segundo elemento de la lista de comida y cambia su valor por otro diferente.
     
     // Recorre la lista de comida utilizando un bucle while y muestra cada elemento en la consola.
     
